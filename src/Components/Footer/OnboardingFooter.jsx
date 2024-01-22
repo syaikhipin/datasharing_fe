@@ -66,7 +66,7 @@ const OnboardingFooter = () => {
           </span>
         </Col>
         <Col lg={4} sm={12} md={12}>
-          About Farmstack
+          About Platform
         </Col>
         <Col
           className={`${styles.bold} ${globalStyle.break_word}`}

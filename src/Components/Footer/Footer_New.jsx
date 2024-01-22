@@ -22,7 +22,7 @@ import {
 import useMediaQuery from "@mui/material/useMediaQuery";
 import globalStyle from "../../Assets/CSS/global.module.css";
 import { FarmStackContext } from "../Contexts/FarmStackContext";
-import digital_green_footer_logo from "../../Assets/Img/Farmstack V2.0/technical_partner.svg";
+import digital_green_footer_logo from "../../Assets/Img/Farmstack V2.0/technical_partner-backup.svg";
 import world_bank_footer_logo from "../../Assets/Img/Frame 1430.svg";
 
 const FooterNew = () => {
@@ -263,10 +263,10 @@ const FooterNew = () => {
                 >
                   <div
                     className={`${style.footerLightText} ${style.quickLinks} mt-10`}
-                    onClick={() => window.open("https://farmstack.co/")}
+                    onClick={() => window.open("#")}
                     data-testId="about-farmstack-button"
                   >
-                    About Farmstack
+                    About Platform
                   </div>
 
                   {isLoggedInUserAdmin() ||
@@ -418,7 +418,7 @@ const FooterNew = () => {
             </div>
 
             <div style={{ fontWeight: "600", fontSize: "20px" }}>
-              Powered by FarmStack
+            
             </div>
           </Box>
         </div>
