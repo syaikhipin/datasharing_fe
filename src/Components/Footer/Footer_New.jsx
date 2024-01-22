@@ -22,7 +22,7 @@ import {
 import useMediaQuery from "@mui/material/useMediaQuery";
 import globalStyle from "../../Assets/CSS/global.module.css";
 import { FarmStackContext } from "../Contexts/FarmStackContext";
-import digital_green_footer_logo from "../../Assets/Img/Farmstack V2.0/technical_partner-backup.svg";
+import digital_green_footer_logo from "../../Assets/Img/Farmstack V2.0/technical_partner.svg";
 import world_bank_footer_logo from "../../Assets/Img/Frame 1430.svg";
 
 const FooterNew = () => {
